@@ -10,7 +10,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         
         .package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", from: "3.0.17"),
-        .package(url: "https://github.com/PerfectlySoft/Perfect-MySQL.git", from: "3.0.0"),
+//        .package(url: "https://github.com/PerfectlySoft/Perfect-MySQL.git", from: "3.0.0"),
         .package(url:"https://github.com/PerfectlySoft/Perfect-WebSockets.git",from: "3.0.2")
     ],
     targets: [
@@ -18,6 +18,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "ChatService",
-            dependencies: ["PerfectHTTPServer","PerfectWebSockets","PerfectMySQL"]),
+            dependencies: ["PerfectHTTPServer","PerfectWebSockets"]),
     ]
 )
