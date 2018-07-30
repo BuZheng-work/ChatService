@@ -1,3 +1,6 @@
+[![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
+](https://developer.apple.com/swift/)
+
 # ChatService
 基于Perfect 框架编写的聊天服务。暂时没有集成数据库操作需要和下面应用使用
 * [chat](https://github.com/JiMengfei/Chat.git)
